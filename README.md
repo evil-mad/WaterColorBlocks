@@ -10,3 +10,7 @@ Requires "current" version of CNCserver:  https://github.com/techninja/cncserver
 Run CNCserver in background, launched with command:
 
   node cncserver --botType=watercolorbot 
+
+
+Scratch is available at: http://scratch.mit.edu
+Snap! is available at: http://snap.berkeley.edu
