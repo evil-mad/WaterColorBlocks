@@ -3,8 +3,10 @@ WaterColorBlocks
 
 Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and Snap
 
-Work in progress, July 2014.  
+Work in progress.
 
-Watch this project if you'd like to follow our progress. 
+Requires "current" version of CNCserver:  https://github.com/techninja/cncserver
 
-Beta testers welcome, soon!
+Run CNCserver in background, launched with command:
+
+  node cncserver --botType=watercolorbot 
