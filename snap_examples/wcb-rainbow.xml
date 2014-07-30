@@ -1,3 +1,4 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <blocks app="Snap! 4.0, http://snap.berkeley.edu" version="1">
 <block-definition s="WCB do %'command to issue'" type="command" category="control">
 <header/>
@@ -477,6 +478,34 @@
 <block s="up"/>
 <custom-block s="WCB do %txt">
 <l>pen/up</l>
+</custom-block>
+</script>
+</block-definition>
+<block-definition s="WCB distance painted" type="reporter" category="sensing">
+<header/>
+<code/>
+<inputs/>
+<script>
+<block s="doReport">
+<block s="reportListItem">
+<l>22</l>
+<block s="reportTextSplit">
+<custom-block s="WCB poll status"/>
+<l>
+<option>whitespace</option>
+</l>
+</block>
+</block>
+</block>
+</script>
+</block-definition>
+<block-definition s="WCB reset distance" type="command" category="control">
+<header/>
+<code/>
+<inputs/>
+<script>
+<custom-block s="WCB do %txt">
+<l>pen/resetDistance</l>
 </custom-block>
 </script>
 </block-definition>
