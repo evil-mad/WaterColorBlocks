@@ -73,6 +73,12 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAOhUlEQVR4Xu
 </block>
 <custom-block s="WCB park"/>
 </script>
+<script x="192" y="99">
+<custom-block s="WCB wake from sleep"/>
+</script>
+<script x="191" y="43">
+<custom-block s="WCB go to sleep"/>
+</script>
 </scripts>
 </sprite>
 <watcher scope="WaterColorBot" s="xPosition" style="normal" x="10" y="10" color="74,108,212" hidden="true"/>
@@ -422,6 +428,9 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAOhUlEQVR4Xu
 </list>
 </block>
 </custom-block>
+<block s="setSize">
+<l>7</l>
+</block>
 <block s="setBrightness">
 <l>100</l>
 </block>

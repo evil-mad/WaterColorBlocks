@@ -423,6 +423,9 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 </list>
 </block>
 </custom-block>
+<block s="setSize">
+<l>7</l>
+</block>
 <block s="setBrightness">
 <l>100</l>
 </block>
