@@ -3,7 +3,7 @@ WaterColorBlocks
 
 Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and Snap!
 
-##Current project status:_
+##Current project status:
 
 The Snap! examples are tested, and behave very well.
 
