@@ -23,6 +23,9 @@ Run CNCserver in background, launched with command:
 ## More info:
 
 Scratch is available at: http://scratch.mit.edu
+
 Snap! is available at: http://snap.berkeley.edu
+
 WaterColorBot is available at: http://watercolorbot.com
 
+The Scratch API in CNCserver is documented here: https://github.com/techninja/cncserver/blob/master/SCRATCH.API.md
