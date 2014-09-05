@@ -7,7 +7,7 @@ Code examples for driving the WaterColorBot from within block-based programming 
 
 The Snap! examples are tested, and behave very well.
 
-The Scratch examples work well, but are a version behind.
+The Scratch examples work well, but are a version behind.  IMPORTANT NOTE: The Scratch team has (temporarily, we hope) disable extensions in the published versions of Scratch. 
 
 
 
