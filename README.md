@@ -5,11 +5,10 @@ Code examples for driving the WaterColorBot from within block-based programming 
 
 ##Current project status:
 
-The Snap! examples are tested, and behave very well. We :heart: Snap!
+The Snap! interface and examples are tested, and behave very well.  We :heart: Snap!
 
 
-The Scratch examples worked well as of Scratch version 404, but are a version behind the Snap! extensions. 
-IMPORTANT NOTE: The Scratch team has (temporarily, we hope) disabled or made undocumented changes to the extension in the published versions of Scratch. 
+The Scratch examples are not currently working. They worked well as of Scratch version 404.  However, the Scratch team has partially disabled the extension interface. Unless you care to download the older version of Scratch, please consider these examples to be broken. We will revisit this once the Scratch team (1) updates their documentation, (2) restores the functionality, or (3) lets us into their developer program.
 
 
 
