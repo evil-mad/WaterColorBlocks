@@ -5,9 +5,11 @@ Code examples for driving the WaterColorBot from within block-based programming 
 
 ##Current project status:
 
-The Snap! examples are tested, and behave very well.
+The Snap! examples are tested, and behave very well. We :heart: Snap!
 
-The Scratch examples work well, but are a version behind.  IMPORTANT NOTE: The Scratch team has (temporarily, we hope) disable extensions in the published versions of Scratch. 
+
+The Scratch examples worked well as of Scratch version 404, but are a version behind the Snap! extensions. 
+IMPORTANT NOTE: The Scratch team has (temporarily, we hope) disabled or made undocumented changes to the extension in the published versions of Scratch. 
 
 
 
@@ -16,7 +18,7 @@ Currently requires "current" version of CNCserver:  https://github.com/techninja
 
 Run CNCserver in background, launched with command:
 
-  node cncserver --botType=watercolorbot 
+  node cncserver
   
 *In the near future*, this will get a lot easier. RoboPaint ( https://github.com/evil-mad/robopaint ) will include this version of CNCserver, and you will only need to launch RoboPaint (a regular Mac/Win/Linux application) and let it run in the background.  
   
