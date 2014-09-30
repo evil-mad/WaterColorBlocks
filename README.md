@@ -5,11 +5,26 @@ Code examples for driving the WaterColorBot from within block-based programming 
 
 ##Current project status:
 
-The Snap! interface and examples are tested, and behave very well.  We :heart: Snap!
+_For Snap!:_
+
+The Snap! interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014), with the exception of the known issues listed in the next section.
 
 
-The Scratch examples are not currently working. They worked well as of Scratch version 404.  However, the Scratch team has partially disabled the extension interface. Unless you care to download the older version of Scratch, please consider these examples to be broken. We will revisit this once the Scratch team (1) updates their documentation, (2) restores the functionality, or (3) lets us into their developer program.
+_For Scratch:_
 
+The good news: We have implemented a new REST-less API (9/29/2014) within CNCserver, that appears to work around the new restriction on extensions added in recent versions. The scratch extensions (.s2e) can be loaded from within the Scratch 2 offline editor, or by opening the WCB-blocks.sb2 example file.
+
+The bad news: Only the "bare blocks" are currently available -- these are interface elements that operate the WaterColorBot, but do not move the sprite.  Please also see known issues, below.
+
+
+----
+
+Known issues, as of 9/29/2014:
+* The "Turn off motors & zero" command is not working as intended. The motors do turn off, but zeroing does not. That is to say, the program assumes that the carriage remains in the same position while motors are off.
+* Documentation has not been updated for the new REST-less API.
+
+
+----
 
 
 ## The helper app:
