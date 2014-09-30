@@ -126,7 +126,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>move/forward/</l>
+<l>move.forward./</l>
 <block var="steps"/>
 </list>
 </block>
@@ -146,7 +146,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>move/right/</l>
+<l>move.right./</l>
 <block var="angle"/>
 </list>
 </block>
@@ -166,7 +166,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>move/left/</l>
+<l>move.left./</l>
 <block var="angle"/>
 </list>
 </block>
@@ -186,7 +186,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>move/absturn/</l>
+<l>move.absturn./</l>
 <block var="angle"/>
 </list>
 </block>
@@ -204,7 +204,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>move/toward/</l>
+<l>move.toward./</l>
 <block var="xPos"/>
 <l>/</l>
 <block var="yPos"/>
@@ -253,7 +253,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>move/nudge/x/</l>
+<l>move.nudge.x./</l>
 <block var="xDist"/>
 </list>
 </block>
@@ -270,7 +270,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>move/nudge/y/</l>
+<l>move.nudge.y./</l>
 <block var="yDist"/>
 </list>
 </block>
@@ -286,7 +286,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <inputs/>
 <script>
 <custom-block s="WCB do %txt">
-<l>pen/off</l>
+<l>pen.off</l>
 </custom-block>
 </script>
 </block-definition>
@@ -300,7 +300,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>move/speed/</l>
+<l>move.speed./</l>
 <block var="speed"/>
 </list>
 </block>
@@ -382,7 +382,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <inputs/>
 <script>
 <custom-block s="WCB do %txt">
-<l>pen/wash</l>
+<l>pen.wash</l>
 </custom-block>
 </script>
 </block-definition>
@@ -396,7 +396,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>tool/water/</l>
+<l>tool.water./</l>
 <block var="dish"/>
 </list>
 </block>
@@ -418,7 +418,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <custom-block s="WCB do %txt">
 <block s="reportJoinWords">
 <list>
-<l>tool/color/</l>
+<l>tool.color./</l>
 <block var="color"/>
 </list>
 </block>
@@ -531,7 +531,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <inputs/>
 <script>
 <custom-block s="WCB do %txt">
-<l>pen/sleep/1</l>
+<l>pen.sleep.1</l>
 </custom-block>
 </script>
 </block-definition>
@@ -541,7 +541,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <inputs/>
 <script>
 <custom-block s="WCB do %txt">
-<l>pen/sleep/0</l>
+<l>pen.sleep.0</l>
 </custom-block>
 </script>
 </block-definition>
@@ -552,7 +552,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <script>
 <block s="down"/>
 <custom-block s="WCB do %txt">
-<l>pen/down</l>
+<l>pen.down</l>
 </custom-block>
 </script>
 </block-definition>
@@ -563,7 +563,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <script>
 <block s="up"/>
 <custom-block s="WCB do %txt">
-<l>pen/up</l>
+<l>pen.up</l>
 </custom-block>
 </script>
 </block-definition>
@@ -574,7 +574,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <script>
 <block s="doReport">
 <block s="reportListItem">
-<l>22</l>
+<l>10</l>
 <block s="reportTextSplit">
 <custom-block s="WCB poll status"/>
 <l>
@@ -591,7 +591,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAgAElEQVR4Xu
 <inputs/>
 <script>
 <custom-block s="WCB do %txt">
-<l>pen/resetDistance</l>
+<l>pen.resetDistance</l>
 </custom-block>
 </script>
 </block-definition>
