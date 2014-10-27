@@ -1,14 +1,14 @@
 WaterColorBlocks
 ================
 
-Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and Snap! To use these examples, you will need to also download and launch a helper app (see below) that manages communication with the WaterColorBot.
+Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and _Snap!_ To use these examples, you will need to also download and launch a helper app (see below) that manages communication with the WaterColorBot.
 
 
 ##Current project status:
 
 _For Snap!:_
 
-The Snap! interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014), with the exception of the known issues listed in the next section.
+The _Snap!_ interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014), with the exception of the known issues listed in the next section.
 
 
 _For Scratch:_
@@ -27,14 +27,15 @@ Known issues, as of 9/29/2014:
 
 ----
 
-
-## The helper app (RoboPaint) :
+## The Helper App
 Using the WaterColorBot through WaterColorBlocks requires the use of a helper application that runs in the background operating the robot.  
 
-The interface is built into RoboPaint, versions 0.9.0 and higher.  Download it at https://github.com/evil-mad/robopaint/releases .  When you launch RoboPaint, it should automatically connect to the WaterColorBot. All that you need to do is simply leave it running in the background.
+
+### RoboPaint :
+The WaterColorBot interface is built into RoboPaint, versions 0.9.0 and higher.  Download RoboPaint at https://github.com/evil-mad/robopaint/releases .  When you launch RoboPaint, it should automatically connect to the WaterColorBot. All that you need to do is simply leave it running in the background while you use Scratch or _Snap!_.
 
 
-## Alternate helper app:
+### Alternate helper app (CNCserver):
 If you cannot (or do not wish to) run RoboPaint for any reason, you can alternately run CNCserver in the background, to manage communication with the WaterColorBot. You can download the current version of CNCserver here:  https://github.com/techninja/cncserver
 
 Run CNCserver in background, launched with command:
@@ -48,7 +49,7 @@ It is worth noting that "under the hood," RoboPaint contains and runs a copy of 
 
 Scratch is available at: http://scratch.mit.edu
 
-Snap! is available at: http://snap.berkeley.edu
+_Snap!_ is available at: http://snap.berkeley.edu
 
 WaterColorBot is available at: http://watercolorbot.com
 
