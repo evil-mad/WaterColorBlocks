@@ -13,16 +13,10 @@ The _Snap!_ interface and examples are tested and working under the new CNCserve
 
 _For Scratch:_
 
-The good news: We have implemented a new REST-less API (9/29/2014) within CNCserver, that appears to work around the new restriction on extensions added in recent versions. The scratch extensions (.s2e) can be loaded from within the Scratch 2 offline editor, or by opening the WCB-blocks.sb2 example file.
+The good news: We have implemented a new REST-less API within CNCserver, that appears to work around the new restriction on extensions added in recent versions. The scratch extensions (.s2e) can be loaded from within the Scratch 2 offline editor, or by opening the WCB-blocks.sb2 example file.
 
 The bad news: Only the "bare blocks" are currently available -- these are interface elements that operate the WaterColorBot, but do not move the sprite.  Please also see known issues, below.
 
-
-----
-
-Known issues, as of 9/29/2014:
-* The "Turn off motors & zero" command is not working as intended. The motors do turn off, but zeroing does not. That is to say, the program assumes that the carriage remains in the same position while motors are off.
-* Documentation has not been updated for the new REST-less API.
 
 
 ----
@@ -32,7 +26,7 @@ Using the WaterColorBot through WaterColorBlocks requires the use of a helper ap
 
 
 ### RoboPaint :
-The WaterColorBot interface is built into RoboPaint, versions 0.9.0 and higher.  Download RoboPaint at https://github.com/evil-mad/robopaint/releases .  When you launch RoboPaint, it should automatically connect to the WaterColorBot. All that you need to do is simply leave it running in the background while you use Scratch or _Snap!_.
+The WaterColorBot interface is built into RoboPaint, versions 0.9.0b and higher.  Download RoboPaint at https://github.com/evil-mad/robopaint/releases .  When you launch RoboPaint, it should automatically connect to the WaterColorBot. All that you need to do is simply leave it running in the background while you use Scratch or _Snap!_.
 
 
 ### Alternate helper app (CNCserver):
