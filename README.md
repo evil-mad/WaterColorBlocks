@@ -4,18 +4,18 @@ WaterColorBlocks
 Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and _Snap!_ To use these examples, you will need to also download and launch a helper app (see below) that manages communication with the WaterColorBot.
 
 
-##Current project status:
+##Current project status: A-OK!
 
 _For Snap!:_
 
-The _Snap!_ interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014), with the exception of the known issues listed in the next section.
+The _Snap!_ interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014).
 
 
 _For Scratch:_
 
-The good news: We have implemented a new REST-less API within CNCserver, that appears to work around the new restriction on extensions added in recent versions. The scratch extensions (.s2e) can be loaded from within the Scratch 2 offline editor, or by opening the WCB-blocks.sb2 example file.
+The Scratch interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014).
 
-The bad news: Only the "bare blocks" are currently available -- these are interface elements that operate the WaterColorBot, but do not move the sprite.  Please also see known issues, below.
+Please note that only the Scratch interface is somewhat simpler than the  _Snap!_ interface: The blocks in the interface move the WaterColorBot, but do not automatically move the sprite on the screen to match. 
 
 
 
