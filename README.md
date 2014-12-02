@@ -6,18 +6,21 @@ Code examples for driving the WaterColorBot from within block-based programming 
 
 ##Current project status: A-OK!
 
-_For Snap!:_
-
+####_For Snap!:_
 The _Snap!_ interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014).
 
 
-_For Scratch:_
-
+####_For Scratch v2 Offline:_
 The Scratch interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014).
 
 Please note that only the Scratch interface is somewhat simpler than the  _Snap!_ interface: The blocks in the interface move the WaterColorBot, but do not automatically move the sprite on the screen to match. 
 
-
+####_For Scratch v2 Online:_
+Pending full support for 3rd party extensions, you can enable WaterColorBlocks in the [Scratch online editor](http://scratch.mit.edu/projects/editor/) using the following code as the URL in a bookmark to make a bookmarklet:
+```javascript
+javascript:(function(){var%20s=document.createElement('script');s.setAttribute('src','https://cdn.rawgit.com/techninja/cncserver/8a95b420519e09a6692177a8a4d5fa87fc26b54c/watercolorbot_scratch.js');document.body.appendChild(s);}());)
+```
+Once you have that saved, just click the bookmark while in the loader and the WaterColorBlocks will appear in the **More Blocks** section.
 
 ----
 
