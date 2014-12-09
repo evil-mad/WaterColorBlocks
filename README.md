@@ -1,23 +1,25 @@
 WaterColorBlocks
 ================
 
-Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and _Snap!_ Download the code [here](https://github.com/evil-mad/WaterColorBlocks/archive/master.zip). To use these examples, you will need to also download and launch a helper app (see below) that manages communication with the WaterColorBot.
+Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and _Snap!_ 
 
 
 ##Current project status: Sneak Preview stage! 
 We are gearing up for "official release," working on checks, balances, bug fixes, additional examples, and documentation. Additional eyes are welcome now, as we head towards official release, currently estimated at late December 2014 or early January 2015.
 
-
-####_For Snap!:_
-The _Snap!_ interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014).
+You can download the examples [here](https://github.com/evil-mad/WaterColorBlocks/archive/master.zip) (a zip file). To use these examples, you will need to also download and launch a helper app (see below) that manages communication with the WaterColorBot.
 
 
-####_For Scratch v2 Offline:_
-The Scratch interface and examples are tested and working under the new CNCserver REST-less API (9/29/2014).
+####_Snap! Support:_
+The _Snap!_ interface and examples are tested and working under the new CNCserver REST-less API.
+
+
+####_Scratch v2 (Offline Editor) Support:_
+The Scratch interface and examples are tested and working under the new CNCserver REST-less API.
 
 Please note that only the Scratch interface is somewhat simpler than the  _Snap!_ interface: The blocks in the interface move the WaterColorBot, but do not automatically move the sprite on the screen to match. 
 
-####_For Scratch v2 Online:_
+####_Scratch v2 (Online Editor) Support:_
 Pending full support for 3rd party extensions, you can enable WaterColorBlocks in the [Scratch online editor](http://scratch.mit.edu/projects/editor/) using the following code as the URL in a bookmark to make a bookmarklet:
 ```javascript
 javascript:(function(){var%20s=document.createElement('script');s.setAttribute('src','https://cdn.rawgit.com/techninja/cncserver/8a95b420519e09a6692177a8a4d5fa87fc26b54c/watercolorbot_scratch.js');document.body.appendChild(s);}());)
