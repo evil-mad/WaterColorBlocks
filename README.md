@@ -3,6 +3,8 @@ WaterColorBlocks
 
 Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and _Snap!_ 
 
+![Snap! Screenshot](https://raw.github.com/evil-mad/WaterColorBlocks/master/screenshots/snap-screenshot.png)
+
 
 ##Current project status: Sneak Preview stage! 
 We are gearing up for "official release," working on checks, balances, bug fixes, additional examples, and documentation. Additional eyes are welcome now, as we head towards official release, currently estimated at late December 2014 or early January 2015.
