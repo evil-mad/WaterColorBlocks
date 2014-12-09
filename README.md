@@ -1,7 +1,7 @@
 WaterColorBlocks
 ================
 
-Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and _Snap!_ To use these examples, you will need to also download and launch a helper app (see below) that manages communication with the WaterColorBot.
+Code examples for driving the WaterColorBot from within block-based programming languages like Scratch and _Snap!_ Download the code [here](https://github.com/evil-mad/WaterColorBlocks/archive/master.zip). To use these examples, you will need to also download and launch a helper app (see below) that manages communication with the WaterColorBot.
 
 
 ##Current project status: Sneak Preview stage! 
