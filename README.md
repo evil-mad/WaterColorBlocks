@@ -35,7 +35,7 @@ Using the WaterColorBot through WaterColorBlocks requires the use of a helper ap
 
 
 ### RoboPaint :
-The WaterColorBot interface is built into RoboPaint, versions 0.9.0b and higher.  Download RoboPaint at https://github.com/evil-mad/robopaint/releases .  When you launch RoboPaint, it should automatically connect to the WaterColorBot. All that you need to do is simply launch it, and leave it running in the background while you use Scratch or _Snap!_. It is recommended to leave RoboPaint on the _Home screen_ (asking you to choose between Create/Print/Manual) while it is running.
+The WaterColorBot interface is built into RoboPaint (in versions 0.9.0b and higher).  Download RoboPaint at https://github.com/evil-mad/robopaint/releases .  When you launch RoboPaint, it should automatically connect to the WaterColorBot. All that you need to do is simply launch it, and leave it running in the background while you use Scratch or _Snap!_. It is recommended to leave RoboPaint on the _Home screen_ (asking you to choose between Create/Print/Manual) while it is running.
 
 
 ### Alternate helper app (CNCserver):
