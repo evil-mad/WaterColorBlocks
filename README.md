@@ -7,7 +7,7 @@ Code examples for driving the WaterColorBot from within block-based programming 
 
 
 ##Current project status: Sneak Preview stage! 
-We are gearing up for "official release," working on checks, balances, bug fixes, additional examples, and documentation. Additional eyes are welcome now, as we head towards official release, currently estimated at late December 2014 or early January 2015.
+We are gearing up for "official release," working on checks, balances, bug fixes, additional examples, and documentation. Additional eyes are welcome now, as we head towards official release.
 
 You can download the examples [here](https://github.com/evil-mad/WaterColorBlocks/archive/master.zip) (a zip file). To use these examples, you will need to also download and launch a helper app (see below) that manages communication with the WaterColorBot.
 
