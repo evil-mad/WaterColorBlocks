@@ -56,4 +56,4 @@ _Snap!_ is available at: http://snap.berkeley.edu
 
 WaterColorBot is available at: http://watercolorbot.com
 
-The Scratch API in CNCserver is documented here: https://github.com/techninja/cncserver/blob/master/SCRATCH.API.md
+The Scratch API in CNCserver is documented here: https://github.com/techninja/cncserver/blob/master/scratch/SCRATCH.API.md
