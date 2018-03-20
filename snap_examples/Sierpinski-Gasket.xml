@@ -190,7 +190,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAAAXNSR0IArs
 <block s="reportURL">
 <block s="reportJoinWords">
 <list>
-<l>localhost:4242/</l>
+<l>http://localhost:4242/</l>
 <block var="command to issue"/>
 </list>
 </block>
@@ -410,7 +410,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAFoCAYAAACPNyggAAAAAXNSR0IArs
 <script>
 <block s="doReport">
 <block s="reportURL">
-<l>localhost:4242/poll</l>
+<l>http://localhost:4242/poll</l>
 </block>
 </block>
 </script>
